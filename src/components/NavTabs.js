@@ -3,10 +3,11 @@ import { NavLink } from 'react-router-dom';
 
 function NavTabs() {
   return (
+    <>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink
-          to="/React-porfolio/"
+          to="/"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
@@ -17,7 +18,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="/React-porfolio/about"
+          to="/about"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
@@ -27,17 +28,17 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="/React-porfolio/blog"
+          to="/blog"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Blog
+          Skills
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink
-          to="/React-porfolio/contact"
+          to="/contact"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
@@ -48,7 +49,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="/React-porfolio/contact/learn"
+          to="/contact/learn"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
@@ -57,6 +58,8 @@ function NavTabs() {
         </NavLink>
       </li>
     </ul>
+    
+  </>
   );
 }
 

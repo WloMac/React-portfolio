@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import Learn from './Learn';
 
-function Contact(props) {
+function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
