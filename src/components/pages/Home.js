@@ -1,16 +1,12 @@
 import React from "react";
-// import Nav from '../Nav';
-
 
 function Home() {
   return (
-    <div className="homepage">
+    <section className="homepage">
 
-    {/* <jumbo> </jumbo> */}
-
-      <h1>WloMac Web Developer</h1>
+    <h1>WloMac Web Developer</h1>
       
-    </div>
+    </section>
     
   );
 }

@@ -1,19 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import {FaBars, FaTimes } from 'react-icons/fa'
-import { useRef } from 'react';
 import './NavTabs.css';
 
 function NavTabs() {
-    const navRef = useRef();
-
-    const showNavBar = ()=> 
-        navRef.current.classList.toggle("responsive_nav");
+    
     return (
         <header>
-            <nav ref = {navRef}>
-                {/* <ul className="nav nav-tabs">
+{/*             
+                <ul className="nav nav-tabs">
                     <li className="nav-item"> */}
+                    <nav>
                         <NavLink
                             to="/"
                             end
@@ -36,12 +32,12 @@ function NavTabs() {
                     {/* </li>
                     <li className="nav-item"> */}
                         <NavLink
-                            to="/blog"
+                            to="/projects"
                             className={({ isActive }) =>
                                 isActive ? 'nav-link active' : 'nav-link'
                             }
                         >
-                            Skills
+                            Projects
                         </NavLink>
                     {/* </li>
                     <li className="nav-item"> */}
@@ -66,14 +62,8 @@ function NavTabs() {
                         </NavLink>
                     {/* </li>
                 </ul> */}
-                <button>
-                    <FaTimes className='nav-btn nav-close-btn' onClick={showNavBar}/>
-                </button>
-            </nav>
-            <button> 
-                <FaBars className='nav-btn' onClick={showNavBar}/>
-            </button>
-        </header>
+                </nav>
+         </header>       
     );
 }
 

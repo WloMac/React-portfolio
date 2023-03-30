@@ -2,16 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <div>
+    <section>
       <h1>About</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Hi,
+        My name is Wlodek, I am a front-end developer with a passion for creating dynamic and engaging web experiences, and strong foundation in HTML, CSS, and JavaScript. I am a quick learner and eager to learn new technologies and frameworks to further enhance my skills. Through my attention to detail and problem-solving skills, I am committed to delivering high-quality code and meeting project deadlines. With a positive attitude and collaborative mindset, I am dedicated to working with teams to bring innovative ideas to life.
       </p>
-    </div>
+    </section>
   );
 }
 

@@ -13,24 +13,19 @@ function App() {
   return (<>
     <Router basename="React-portfolio">
       <div>
-        {/* <Nav /> */}
+      
         <NavTabs />
-        {/* Wrap Route elements in a Routes component */}
-        
-          {/* Define routes using the Route component to render different page components at different paths */}
-          {/* Define a default route that will render the Home component */}
           <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          {/* Define a route that will have descendant routes */}
-          <Route path="/contact/*" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         
       </div>
     </Router>
     <Logo />
-      <Footer /> 
+    <Footer /> 
       
       </>
 
