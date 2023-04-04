@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --mainColor: #212529;
+    --mainColorLight: #495057;
+    --secondaryColor: #6C757D;
+    --secondaryColorLight: #ADB5BD;
+    --fontColor: #F8F9FA;
+    --fontColorDark: #DEE2E6;
+}
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    background-color: var(--mainColor);
+    color: var(--fontColor);
+}
