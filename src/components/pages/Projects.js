@@ -1,9 +1,11 @@
 import React from "react";
+import './Projects.css';
 
 function Projects() {
   return (
-    <div>
+    <section className="projectsSection">
       <h1>Projects</h1>
+      <hr></hr>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
         turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
@@ -16,7 +18,7 @@ function Projects() {
         vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
         non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
-    </div>
+    </section>
   );
 }
 
