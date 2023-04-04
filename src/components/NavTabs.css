@@ -25,7 +25,10 @@ header{
     align-items: center;
     justify-content: space-evenly;
     height: 10%;
-    background-color: var(--secondaryColor);
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(10px);
+    border: 1px solid rbga(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     color: var(--fontColor);
 }
 .nav{

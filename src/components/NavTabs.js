@@ -18,19 +18,10 @@ function NavTabs() {
                             isActive ? 'nav-link active' : 'nav-link'
                         }
                     >
-                        Home
-                    </NavLink>
-                </div>
-                <div className='nav-item'>
-                    <NavLink
-                        to="/about"
-                        className={({ isActive }) =>
-                            isActive ? 'nav-link active' : 'nav-link'
-                        }
-                    >
                         About
                     </NavLink>
                 </div>
+    
                 <div className='nav-item'>
                     <NavLink
                         to="/projects"
@@ -52,16 +43,7 @@ function NavTabs() {
                         Contact
                     </NavLink>
                 </div>
-                <div className='nav-item'>
-                    <NavLink
-                        to="/contact/learn"
-                        className={({ isActive }) =>
-                            isActive ? 'nav-link active' : 'nav-link'
-                        }
-                    >
-                        Learn
-                    </NavLink>
-                </div>
+            
             </nav>
             <Photo />
         </header>

@@ -7,20 +7,20 @@ import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import './App.css';
 
 
 
 
 function App() {
   return (
-  <>
+  <body>
     <Router basename="React-portfolio">
       <div>
       
         <NavTabs />
           <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
@@ -30,7 +30,7 @@ function App() {
     <Skills />
     <Footer />       
       
-  </>
+  </body>
 
   );
 }
