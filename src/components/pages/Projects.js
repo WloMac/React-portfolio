@@ -12,9 +12,9 @@ function Projects() {
       <hr></hr>
       <div className='projectsList'>
         <div className='projectCard'>
-          <div className='projectCard-image'>
-          <img src={screenshot} alt="Day Planner"/>
-          </div>
+          
+          <img src={screenshot} alt="Day Planner" className="project-image"/>
+      
           <div className='projectCard-body'>
 
             <h3>Day Planner</h3>
@@ -27,9 +27,9 @@ function Projects() {
           </div>
         </div>
         <div className='projectCard'>
-          <div className='projectCard-image'>
-          <img src={screenshot2} alt="Weather Forecast"/>
-          </div>
+          
+          <img src={screenshot2} alt="Weather Forecast" className="project-image"/>
+       
           <div className='projectCard-body'>
             <h3>Weather Forecast</h3>
             <p>A weather forecast application which provides users with up-to-date weather information and five days forecast for specified localisation.
@@ -41,10 +41,9 @@ function Projects() {
           </div>
         </div>
         <div className='projectCard'>
-          <div className='projectCard-image'>
-          <img src={screenshot3} alt="Readme Generator"/>
+         
+          <img src={screenshot3} alt="Readme Generator" className="project-image"/>
 
-          </div>
           <div className='projectCard-body'>
 
             <h3>Readme.md Generator</h3>
