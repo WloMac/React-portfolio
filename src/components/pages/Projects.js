@@ -1,23 +1,62 @@
 import React from "react";
 import './Projects.css';
+import screenshot from '../images/ProjSS1.png'
+import screenshot2 from '../images/ProjSS2.png'
+import screenshot3 from '../images/ProjSS3.png'
+ 
 
 function Projects() {
   return (
     <section className="projectsSection">
       <h1>Projects</h1>
       <hr></hr>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-        turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-        Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-        nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi
-        justo laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum
-        tellus eget lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
-        placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque
-        vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
-        non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <div className='projectsList'>
+        <div className='projectCard'>
+          <div className='projectCard-image'>
+          <img src={screenshot} alt="Day Planner"/>
+          </div>
+          <div className='projectCard-body'>
+
+            <h3>Day Planner</h3>
+            <p>A day planning application that help users manage their time, and efficiently achieve their goals.
+            </p>
+            <p>
+              Tools: HTML, CSS, JavaScript, Bootstrap, FontAwsome.
+            </p>
+            <p>Link: <a href='https://wlomac.github.io/Planner/'>https://wlomac.github.io/Planner/</a></p>
+          </div>
+        </div>
+        <div className='projectCard'>
+          <div className='projectCard-image'>
+          <img src={screenshot2} alt="Weather Forecast"/>
+          </div>
+          <div className='projectCard-body'>
+            <h3>Weather Forecast</h3>
+            <p>A weather forecast application which provides users with up-to-date weather information and five days forecast for specified localisation.
+            </p>
+            <p>
+              Tools: HTML, CSS, JavaScript, Bootstrap, FontAwsome, Rest API.
+            </p>
+            <p>Link: <a href='https://wlomac.github.io/Weather-Forecast'>https://wlomac.github.io/Weather-Forecast</a></p>
+          </div>
+        </div>
+        <div className='projectCard'>
+          <div className='projectCard-image'>
+          <img src={screenshot3} alt="Readme Generator"/>
+
+          </div>
+          <div className='projectCard-body'>
+
+            <h3>Readme.md Generator</h3>
+            <p>Readme.md Generator is a tool for developers, designed to simplify process of creating README.md file.
+            </p>
+            <p>
+              Tools: HTML, JavaScript, NODE.js.
+            </p>
+            <p>Link: <a href='https://github.com/WloMac/Readme-Generator'> https://github.com/WloMac/Readme-Generator</a></p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
