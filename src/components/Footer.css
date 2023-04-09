@@ -9,12 +9,28 @@
     --fontColorDark: #DEE2E6;
 }
 footer{
+
+    min-height: 20vh;
+    margin-top: 1.5%;
+    padding: 1%;
     display: flex;
-    position: fixed;
+    flex-direction: column;
+    /* position: fixed; */
     bottom: 0;
     left: 0;
     right: 0;
     justify-content: center;
+    text-align: center;
     background-color: var(--mainColor);
     color: var(--fontColor);
 }
+
+.contact-icon{
+    color: var(--fontColor);
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 20px;
+    margin: 10px;
+
+}
+
