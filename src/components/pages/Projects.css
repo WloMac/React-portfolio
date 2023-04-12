@@ -1,7 +1,4 @@
 .projectsSection {
-    /* width: 100%;
-    min-height: 100vh; */
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     margin-top: 1.5%;
@@ -23,19 +20,10 @@ a {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* margin: 1.5rem; */
     padding: 3rem;
     background-color: coral;
     
 }
-
-/* .row{
-    background-color: blueviolet;
-    display: flex;
-    
-    align-items: center;
-    justify-content: space-between;
-} */
 
 .projectCard{
     background-color: blueviolet;
@@ -49,10 +37,11 @@ a {
 }
 
 .project-image {
+    resize: both;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
     width: 100%;
-    height: 100%;
+    max-height: 18.75rem;
 }
 
 .projectCard-body {
