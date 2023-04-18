@@ -1,3 +1,4 @@
+
 .projectsSection {
     justify-content: center;
     align-items: center;
@@ -8,25 +9,21 @@
     border: 1px solid rbga(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     color: white;
-    background-color: aqua;
-
+    
 }
 
-a {
-    text-decoration: none;
-}
+
 
 .projectsList {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 3rem;
-    background-color: coral;
+    
     
 }
 
 .projectCard{
-    background-color: blueviolet;
     position: relative;
     height: 5%;
     max-width: 35rem;
@@ -46,6 +43,7 @@ a {
 
 .projectCard-body {
     padding: 1.25rem;
+ 
 }
 
 .projectCard-title {
@@ -56,4 +54,10 @@ a {
 .projectCard-text {
     font-size: 1rem;
     line-height: 1.5;
+   
 }
+
+a.projectCard-text{
+    text-decoration: none;
+}
+
