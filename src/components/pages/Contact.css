@@ -9,13 +9,25 @@
 }
 
 .formContainer{
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;    
+    align-items: center;
+    justify-content: center;
 }
 
-.form{
-    display: ;
+
+input, textarea{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    background-color: rgba(75, 75, 75, 0.15);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 3px solid rbga(255, 255, 255);
+
 }
+
