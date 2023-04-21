@@ -22,8 +22,7 @@ function Contact() {
     <section className='contactSection'>
       <h1>Contact Page</h1>
       <hr></hr>
-      <div className='formContainer'>
-        <form ref={form} onSubmit={sendEmail}>
+        <form className='formContainer' ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text" name="user_name" />
           <label>Email</label>
@@ -32,7 +31,7 @@ function Contact() {
           <textarea name="message" />
           <input type="submit" value="Send" />
         </form>
-      </div>
+      
       {/* <Link to="learn" role="button" className="btn btn-link">
         Learn More
       </Link>
