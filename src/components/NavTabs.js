@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './NavTabs.css';
 import Photo from './Photo.js';
 
 function NavTabs() {

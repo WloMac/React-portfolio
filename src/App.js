@@ -6,7 +6,7 @@ import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
-import './App.css';
+import './style.css';
 
 
 

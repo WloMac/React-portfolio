@@ -1,5 +1,4 @@
 import React from 'react';
-import './Photo.css'
 import logo from './images/photo.png';
 
 function Photo() {

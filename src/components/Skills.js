@@ -1,7 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faJsSquare, faBootstrap, faGithub, faHtml5, faCss3, faReact, faNode} from '@fortawesome/free-brands-svg-icons';
-import './Skills.css';
+
 
 export default function Skills() {
 

@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 // import { Link, Route, Routes } from 'react-router-dom';
 // import Learn from './Learn';
-import './Contact.css'
+
 
 function Contact() {
 
