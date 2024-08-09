@@ -19,8 +19,8 @@ return (
                     <h1> <span id='myName'>Włodek</span></h1>
                     <h3>and I am a</h3>
                     <h2>Frontend Developer</h2>
-                    <h3><Button variant="secondary">Check my projects</Button>{' '}</h3>
-                    <h3><Button variant="secondary">Contact me</Button>{' '}</h3>
+                    <h3><Button variant="secondary" href="#projects">Check my projects</Button>{' '}</h3>
+                    <h3><Button variant="secondary" href="#contact">Contact me</Button>{' '}</h3>
                     <h4><span className="contact-icon">
                             <a href="mailto:wmac.webdev@gmail.com">
                             <FontAwesomeIcon icon={faEnvelope} size='2xl' className='contact-icon'/>
