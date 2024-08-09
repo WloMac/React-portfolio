@@ -6,8 +6,8 @@ import {faJsSquare, faBootstrap, faGithub, faHtml5, faCss3, faReact, faNode} fro
 export default function Skills() {
 
     return(
-        <main>
-        <h1>Skills</h1>
+        <section className='skillsSection'>
+        <h1>Technologies</h1>
         <hr></hr>
         <span className='skills-icon'>
         <h1>
@@ -20,10 +20,7 @@ export default function Skills() {
         <FontAwesomeIcon icon={faGithub} size='2xl' className='skills-icon'/>
         </h1>
         </span>
-
-
-
-        </main>
+        </section>
     )
     
 }

@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
+
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Cousine', monospace;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 *::before,
@@ -19,6 +22,7 @@
     --secondaryColorLight: #ADB5BD;
     --fontColor: #F8F9FA;
     --fontColorDark: #DEE2E6;
+    --smallpadding: 5%;
 
 }
 
@@ -26,6 +30,14 @@ body{
     background-image: url(./components/images/keyboard.jpg);    
 }
 
+.montserra-bold {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  
 /* HEADER */
 
 header{
@@ -78,6 +90,25 @@ header{
  box-shadow: 0 0 35px var(--mainColor) */
 }
 
+/*HERO*/
+#heroSection{ 
+    display: flex;
+    margin-top: 1.5%;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(10px);
+    border: 1px solid rbga(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: white;
+}
+
+#description{ 
+    margin-top: 5%;
+    padding: var(--smallpadding);
+    text-align: center;
+   
+}
+
 /*PHOTO*/
 
 .photo-container{
@@ -85,10 +116,13 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: auto;
+    padding: var(--smallpadding);
+  
 
 }
 
-.photo-style{
+.photo-style{    
     resize: both;
     width: 400px;
     height: 400px;
@@ -111,7 +145,7 @@ header{
 
 /* SKILLS */ 
 
-main{
+.skillsSection{
     margin-top: 1.5%;
     padding: 5%;
     background-color: rgba(0, 0, 0, 0.65);
@@ -261,4 +295,9 @@ footer{
     font-size: 3rem;
     padding: 20px;
     margin: 10px;
+}
+
+
+@media screen and (max-width: 400px){
+        
 }

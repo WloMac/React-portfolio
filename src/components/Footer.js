@@ -7,7 +7,7 @@ import {faEnvelope} from '@fortawesome/free-regular-svg-icons'
 function Footer() {
     return (
     <footer>
-        <h4>Contact</h4>
+        <h4>Find me on socials: </h4>
         <hr></hr>
         <span className="contact-icon">
         <a href="mailto:wmac.webdev@gmail.com">

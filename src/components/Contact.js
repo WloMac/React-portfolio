@@ -19,7 +19,7 @@ function Contact() {
       });
   };
   return (
-    <section className='contactSection'>
+    <section className='contactSection' id="contact">
       <h1>Contact Page</h1>
       <hr></hr>
         <form className='formContainer' ref={form} onSubmit={sendEmail}>

@@ -1,13 +1,12 @@
 import React from "react";
-import './Projects.css';
-import screenshot from '../images/ProjSS1.png'
-import screenshot2 from '../images/ProjSS2.png'
-import screenshot3 from '../images/ProjSS3.png'
+import screenshot from './images/ProjSS1.png'
+import screenshot2 from './images/ProjSS2.png'
+import screenshot3 from './images/ProjSS3.png'
 
 
 function Projects() {
   return (
-    <section className="projectsSection">
+    <section className="projectsSection" id="projects">
       
         <h1>Projects</h1>
         <hr></hr>
